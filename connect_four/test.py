@@ -32,7 +32,6 @@ def player_selector() -> list[player]:
 state = game(player_selector(), board_selector())
 winner = state.start_game()
 print(state.board)
-print(cf_player.get_move(self=cf_player, board=board_int))
 if winner is None:
     print("Draw")
 else:
